@@ -1,0 +1,29 @@
+1. Write a program in C language that will create two threads among which one will read data from user (The user will be asked for how many data will be entered) into a circular queue and the other will print data (The user will be asked for how many data will be printed) from the circular queue (use array or linked list). Approprite message should be printed if the queue is empty or full. The queue should be intilized by the parent thread. Your program should maintain proper synchronization between two threads. Use pthread header file in your program.  
+
+
+2. Write a program in C language to implement FCFS, Shortest Remainig Time First, Round Robin and Priority queue sceduling (both preemptive and Non-preemptive) algorithms. Your program will take necessary input values for each process (CPU burst time, I/O burst time, arrival time, priority, etc.). It also will take other necessary parameters (ex. quatum time, how many processes, etc.) depending on the scheduling algorithm. Use switch case to select the scheduling algorithm. The program will output the sequence of processes, which access the CPU. Assume only one device queue. Maintain ready queue and device queue using linked list only.
+
+For CPU burst and I/O burst time inputs:
+Create PCB for the process having the following information:
+How many CPU burst (Considering CPU and I/O bursts are interleaving and all the burst times are equal)
+The sequence of CPU and I/O bursts. (Use array to keep this information within PCB and when burst will over the corresponding entry in the array should be deleted)
+
+
+Your program should output the following:
+1) The sequence of process to be executed.
+2) Waiting time of every process and consequently average waiting time of the scheduling.
+3) Turn around time of every process and consequently average turn around time of the scheduling.
+4) Response time of each process and consequently average response time of the scheduling.
+
+
+ 
+
+
+
+
+
+
+
+
+
+

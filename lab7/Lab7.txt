@@ -1,0 +1,27 @@
+1. Write a program in C/C++ language to implement FIFO, LRU and Optimal Page Replacement Algorithms (Consider that the degree of multiprogramming is 1) using switch case. The Inputs and outputs are the following:
+
+User Input
+a) Choice of the algorithm
+b) A value n 
+c) Number of frames allocated to the process
+d) Referrence string
+
+Output for one iteration:
+a) No. of page faults
+b) The sequence of pages assigned to each frame
+
+Run the simulation n number times in a loop (use different values for input c in each loop) for a given choice and check if there is Belady's Anomay or not. Also compute the average page fault.
+ 
+Marks: 25
+
+2. Write a program in C/C++ language to implement Second Chance Page Replacement Algorithm. In this program, you have to use the inputs c and d of the previous assignment. The output will be the page sequence and frame sequence that will be replaced during the program execution. Also compute the total number of iterations for managing the referrence string.
+
+Marks: 20
+
+
+
+
+
+
+
+

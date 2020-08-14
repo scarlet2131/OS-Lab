@@ -1,0 +1,16 @@
+1. Write a program in C/C++ language to solve readers writers problem using semaphore. There will be three writer threads and two reader threads. Each writer will write one paragraph in a file. On the other hand, one reader thread will read (display at the output) the first paragraph and second thread will read (display at the output) the last two paragraphs. User will give appropriate input about which thread will read which paragraph. Implement your program using necessary semaphore variables. Your program should maintain the necessary synchronization requirements to solve the readers writers problem as discussed in class. 
+
+Marks: 25
+
+2. Write a program in C/C++ language to solve dinning philosopher problem. User will give the input of the number of participating philosophers. Implement your program  such that there will be no deadlock. You should output the sequence of the activity of the philosophers including their waiting state. 
+
+Marks: 20
+
+
+
+
+
+
+
+
+

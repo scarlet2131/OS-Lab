@@ -1,0 +1,31 @@
+1. Write a program in C/C++ language to solve Sleeping Barber problem using semaphore.  A barbershop consists of a waiting room with n chairs, and a barber room with one barber chair. If there are no customers to be served, the barber goes to sleep. If a customer enters the barbershop and all chairs are occupied, then the customer leaves the shop. If the barber is busy, but chairs are available, then the customer sits in one of the free chairs. If the barber is asleep, the customer wakes up the barber.  
+
+Marks: 20
+
+2. There are five concurrent processes A, B, C, D and E, with the first three trying to add 50 to a shared variable M, while the last two trying to subtract 75 from M. 
+Assume that the initial value of M is 0 and memory add and subtract operations are non-atomic (one variable can be concurrently accessed by multiple processes).  All the processes will run only once. 
+
+Write a program in C/C++ language to implement the above problem and find the value of M. Modify your program to iterate the program n times. Compute the Mean,  Median, Mode and standard deviation.  
+
+Marks: 10
+
+3. There is a tradeoff between TLB reach and Internal Fragmentation. Write a program in C/C++ language to optimize the fragmentation and TLB reach. The working set will be inputted by the user.
+
+User Input:
+No. of TLB entries
+No. of processes n
+For process pi (i = 1 to n): No of pages referenced within Delta time window, Size of the process (in bytes), Size of data structure (in bytes) it will use. Consider the process Pi is using reentrant code and it may modify data. 
+
+Output:
+Optimum value of TLB reach.
+It will also output all the TLB reach value other than the optimum values. 
+
+
+Repeat the program m times for m number of working sets (different inputs in every iteration for No. of pages referenced within Delta time window, other inputs will remain same). Compute the average optimum value of TLB Reach. 
+Marks: 20
+
+
+
+
+
+
